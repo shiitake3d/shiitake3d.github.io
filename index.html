@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<!-- Last Published: Thu Aug 17 2023 17:02:18 GMT+0000 (Coordinated Universal Time) -->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Shiitake3D</title>
+    <meta content="Shiitake3D" property="og:title" />
+    <meta property="og:type" content="website" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/css/matthewtancik.webflow.8494d6fe2.min.css"
+        rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic", "Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Changa One:400,400italic", "Varela Round:400", "Bungee Shade:regular", "Roboto:300,regular,500", "Bungee Outline:regular"]
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        !function (o, c) {
+            var n = c.documentElement
+                , t = " w-mod-";
+            n.className += t + "js",
+                ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+        }(window, document);
+    </script>
+    <link href="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5aaddbdee8d43ceeae2f2e4c_favicon-32x32.png"
+        rel="shortcut icon" type="image/x-icon" />
+    <link href="https://y7v4p6k4.ssl.hwcdn.net/51db7fcf29a6f36b2a000001/51e06d302f5394c87600002a_webclip-comet.png"
+        rel="apple-touch-icon" />
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-51T1ZNPMZT"></script>
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-51T1ZNPMZT', {
+            'anonymize_ip': false
+        });
+    </script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="section hero nerf-_v2">
+        <div class="container-2 nerf_header_v2 w-container">
+            <!-- <h1 class="nerf_title_v2">Shiitake3D</h1>
+            <h1 class="nerf_subheader_v2"></h1>
+            <h1 class="eccv_label">Neurips 2024</h1>
+            <img src="figures/shiitake_header.JPG" alt="Description of image" class="header"> -->
+            <img src="figures/header3.png" alt="Description of image" class="textimg">
+            <h1 class="nerf_subheader_v2"></h1>
+            <h1 class="eccv_label">Neurips 2024</h1>
+            <!-- <div class="nerf_authors_list_single w-row">
+                    <div class="w-col w-col-2 w-col-small-4 w-col-tiny-6">
+                        <a href="https://bmild.github.io/" target="_blank" class="nerf_authors_v2">
+                            Ben Mildenhall<span class="text-span_nerf_star">*</span>
+                            <span class="superscript text-span_nerf">1*</span>
+                        </a>
+                    </div>
+                    <div class="column w-col w-col-2 w-col-small-4 w-col-tiny-6">
+                        <a href="https://pratulsrinivasan.github.io/" target="_blank" class="nerf_authors_v2">
+                            Pratul P. Srinivasan<span class="text-span_nerf_star">*</span>
+                            <span class="superscript text-span_nerf">1*</span>
+                        </a>
+                    </div>
+                    <div class="w-col w-col-2 w-col-small-4 w-col-tiny-6">
+                        <a href="/" target="_blank" class="nerf_authors_v2">
+                            Matthew Tancik<span class="text-span_nerf_star">*</span>
+                            <span class="superscript text-span_nerf">1*</span>
+                        </a>
+                    </div>
+                    <div class="w-col w-col-2 w-col-small-4 w-col-tiny-6">
+                        <a href="https://jonbarron.info/" target="_blank" class="nerf_authors_v2">
+                            Jonathan T. Barron<span class="text-span_nerf">2</span>
+                            <span class="superscript"></span>
+                        </a>
+                    </div>
+                    <div class="w-col w-col-2 w-col-small-4 w-col-tiny-6">
+                        <a href="http://cseweb.ucsd.edu/~ravir/" target="_blank" class="nerf_authors_v2">
+                            Ravi Ramamoorthi<span class="text-span_nerf">3</span>
+                        </a>
+                    </div>
+                    <div class="w-col w-col-2 w-col-small-4 w-col-tiny-6">
+                        <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html" target="_blank" class="nerf_authors_v2">
+                            Ren Ng<span class="text-span_nerf">1</span>
+                        </a>
+                    </div>
+                </div> -->
+            <!-- <div class="columns-6 w-row">
+                    <div class="nerf_mobile_col_inst w-col w-col-4 w-col-small-4 w-col-tiny-4">
+                        <div class="nerf_mobile_inst">
+                            <span class="text-span_nerf">1 </span>
+                            UC Berkeley
+                        </div>
+                    </div>
+                    <div class="nerf_mobile_col_inst w-col w-col-4 w-col-small-4 w-col-tiny-4">
+                        <div class="nerf_mobile_inst">
+                            <span class="text-span_nerf">2</span>
+                            Google Research
+                        </div>
+                    </div>
+                    <div class="nerf_mobile_col_inst w-col w-col-4 w-col-small-4 w-col-tiny-4">
+                        <div class="nerf_mobile_inst">
+                            <span class="text-span_nerf">3 </span>
+                            UC San Diego
+                        </div>
+                    </div>
+                </div>
+                <div class="nerf_authors_list_single nerf_authors_affiliation w-row">
+                    <div class="w-col w-col-2">
+                        <h1 class="nerf_affiliation_v2">UC Berkeley</h1>
+                    </div>
+                    <div class="column w-col w-col-2">
+                        <h1 class="nerf_affiliation_v2">UC Berkeley</h1>
+                    </div>
+                    <div class="w-col w-col-2">
+                        <h1 class="nerf_affiliation_v2">UC Berkeley</h1>
+                    </div>
+                    <div class="w-col w-col-2">
+                        <h1 class="nerf_affiliation_v2">Google Research</h1>
+                    </div>
+                    <div class="w-col w-col-2">
+                        <h1 class="nerf_affiliation_v2">UC San Diego</h1>
+                    </div>
+                    <div class="w-col w-col-2">
+                        <h1 class="nerf_affiliation_v2">UC Berkeley</h1>
+                    </div>
+                </div> -->
+            <div class="div-block-10">
+                <div class="nerf_equal_v2">
+                    <span class="text-span_nerf"></span>
+                    <!-- <span class="text-span_nerf_star">*</span>
+                    Denotes Equal Contribution -->
+                </div>
+            </div>
+            <div class="link_column_nerf_v2 w-row">
+                <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4">
+                    <a href="" class="link-block w-inline-block">
+                        <img src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01.png"
+                            alt="paper"
+                            sizes="(max-width: 479px) 12vw, (max-width: 767px) 7vw, (max-width: 991px) 41.8515625px, 56.6953125px"
+                            srcset="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01-p-500.png 500w, https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01.png 672w"
+                            class="paper_img image-8_nerf" />
+                    </a>
+                </div>
+                <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4">
+                    <a href="" target="_blank" class="link-block w-inline-block">
+                        <img src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cae3b53b42ebb3dd4175a82_68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67.png"
+                            alt="paper" class="paper_img image-8 github_icon_nerf_v2" />
+                    </a>
+                </div>
+                <div class="column-2 w-col w-col-4 w-col-small-4 w-col-tiny-4">
+                    <a href="https://drive.google.com/drive/folders/14Q7DT3ufyurTZ75F5OB55vMJ9H_JBqBQ?usp=sharing"
+                        target="_blank" class="link-block w-inline-block">
+                        <img src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5e7136849ee3b0a0c6a95151_database.svg"
+                            alt="paper" class="paper_img image-8_nerf nerf_db_icon" />
+                    </a>
+                </div>
+            </div>
+            <div class="paper_code_nerf w-row">
+                <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4">
+                    <div class="text-block-2">
+                        <strong class="bold-text-nerf_v2">Paper</strong>
+                    </div>
+                </div>
+                <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4">
+                    <div class="text-block-2">
+                        <strong class="bold-text-nerf_v2">&lt;/Code &gt;</strong>
+                    </div>
+                </div>
+                <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4">
+                    <div class="text-block-2">
+                        <strong class="bold-text-nerf_v2">Data</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div data-anchor="slide1" class="section nerf_section">
+                <div class="w-container">
+                    <h2 class="grey-heading_nerf">Overview Video</h2>
+                    <div style="padding-top:56.17021276595745%" class="w-embed-youtubevideo stega_movie youtube">
+                        <iframe
+                            src="https://www.youtube.com/embed/JuH79E8rdKc?rel=1&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+                            frameBorder="0"
+                            style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:auto"
+                            allow="autoplay; encrypted-media" allowfullscreen=""
+                            title="NeRF: Neural Radiance Fields"></iframe>
+                    </div>
+                    <a href="https://www.youtube.com/watch?v=LRAqeM8EjOo&amp;feature=youtu.be" target="_blank"
+                        class="nerf_full_talk_vid">
+                        ECCV Technical Talk Video<span class="superscript"></span>
+                    </a>
+                </div>
+            </div> -->
+            <div>
+                <h2 class="grey-heading_nerf">Abstract</h2>
+                <p class="paragraph-3 nerf_text">
+                    State-of-the-art Neural Radiance Fields (NeRF) demonstrate impressive results for real-world scene
+                    reconstruction and have fueled the creation of 3D models through the ease of capturing multi-view
+                    data. In recent years, this has opened the possibility of building 3D generative models
+                    directly from the multi-view images.
+                    However, most of the existing image-based methods still either rely on synthetic datasets or operate
+                    in restricted categories, such as humans. This makes it difficult to evaluate their performance on
+                    real-world scenes, which might present unique challenges such as complex details or view-dependent
+                    effects. Unfortunately, existing real-world datasets often contain only a small number of entities
+                    in each class making them ill-suited for training generative models.
+                    We introduce a large-scale dataset of registered images, along with consistently lit close-range
+                    scans to close this gap and benchmark data-driven scene synthesis on the provided data.
+                    Counting more than 21,000 images of 427 entities of organic shapes, our dataset surpasses existing
+                    real-world benchmarks in terms of variations including local high-frequency details among shapes and
+                    appearances for the same class.
+                    We demonstrate our benchmark's unique capabilities by training various deep generative models on our
+                    data and showing the limitations of existing approaches. </p>
+            </div>
+
+            <div>
+                <h2 class="grey-heading_nerf">Dataset</h2>
+            </div>
+            <div class="padded full-width">
+                <table class="table full-width">
+                    <!-- is-hidden-mobile  -->
+                    <tr>
+                        <td class="nopadding"><model-viewer alt=" mesh" src="meshes/GB2_193.glb" ar camera-controls
+                                poster="meshes/GB2_193.webp"></model-viewer></td>
+                        <td class="nopadding"><model-viewer alt="mesh" src="meshes/GB2_190.glb" ar camera-controls
+                                poster="meshes/GB2_190.webp"></model-viewer></td>
+                        <td class="nopadding"><model-viewer alt="mesh" src="meshes/GB2_203.glb" ar camera-controls
+                                poster="meshes/GB2_203.webp"></model-viewer></td>
+                        <td class="nopadding"><model-viewer alt="mesh" src="meshes/GB2_204.glb" ar camera-controls
+                                poster="meshes/GB2_204.webp"></model-viewer></td>
+                    </tr>
+                    <tr class="paragraph-3">
+                        <td>
+                            <p class="paragraph-3 nerf_text centered">GB2_193</p>
+                        </td>
+                        <td>
+                            <p class="paragraph-3 nerf_text centered">GB2_190</p>
+                        </td>
+                        <td>
+                            <p class="paragraph-3 nerf_text centered">GB2_203</p>
+                        </td>
+                        <td>
+                            <p class="paragraph-3 nerf_text centered">GB2_204</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <p class="paragraph-3 nerf_text">Shiitake3D contains over 21,000 views of 427 entities of organic shapes,
+                as well as curated 3D reconstructions from these images. It consists of different species of mushrooms
+                with rich geometric and appearance details, making them an ideal and challenging test bed for existing
+                and future data-driven scene synthesis.
+                We provide two separate scenarios: synthetic views generated from our reconstructed 3D shapes, and
+                real-life multi-view images.</p>
+
+            <p class="paragraph-3 nerf_text">Please see ReadMe for detailed download instructions.</p>
+            <div>
+                <h2 class="grey-heading_nerf">Capture Process</h2>
+            </div>
+            <div class="padded full-width">
+                <table class="table full-width">
+                    <tr class="paragraph-3">
+                        <td>
+                            <img src="figures/cam-1_1.jpg" alt="Description of image">
+                        </td>
+                        <td>
+                            <img src="figures/cam-2_2.jpg" alt="Description of image">
+                        </td>
+                        <td>
+                            <img src="figures/cam-3_13.jpg" alt="Description of image">
+                        </td>
+                        <td>
+                            <img src="figures/cam-4_29.jpg" alt="Description of image">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <p class="paragraph-3 nerf_text">Models were captured on a rotating table using 4 cameras at different
+                angles, allowing for high-fidelity reconstructions.</p>
+
+            <div>
+                <h2 class="grey-heading_nerf">Benchmarks</h2>
+            </div>
+
+            <p class="paragraph-3 nerf_text">Please refer to our paper for detailed results on synthetic and natural
+                datasets.</p>
+
+            <div>
+                <h2 class="grey-heading_nerf">License</h2>
+                <p class="paragraph-3 nerf_text">MIT License.<br><br>
+                    Permission is hereby granted, free of charge, to any person obtaining a copy
+                    of this software and associated documentation files (the "Software"), to deal
+                    in the Software without restriction, including without limitation the rights
+                    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                    copies of the Software, and to permit persons to whom the Software is
+                    furnished to do so, subject to the following conditions:
+                    <br><br>
+                    The above copyright notice and this permission notice shall be included in all
+                    copies or substantial portions of the Software.
+                    <br><br>
+                    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                    SOFTWARE.
+                </p>
+            </div>
+            <footer style="text-align: center; margin-top: 20px;">
+                <p>The website template was borrowed from <a href="https://www.matthewtancik.com/nerf" target="_blank"
+                        rel="noopener noreferrer">nerf</a></p>
+            </footer>
+</body>
+
+</html>
